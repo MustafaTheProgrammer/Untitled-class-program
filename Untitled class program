@@ -25,12 +25,12 @@ class Doodle
 
     Void Moving
     {
-        Console.WriteLine(name + "is moving")
+        Console.WriteLine(name + "is moving");
     }
 
     Void Drawing
     {
-        Console.WriteLine(name + "is drawing")
+        Console.WriteLine(name + "is drawing");
     }
 
 }
