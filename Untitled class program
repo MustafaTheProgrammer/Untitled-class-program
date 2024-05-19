@@ -6,9 +6,31 @@ namespace Untitled class program
     {
         static void Main(string[] args)
         {
-            [idk]
+            Doodle doodle1 = new Doodle
+
+            doodle1.name = "Steve";
+            doodle1.color = "green";
+
+            doodle1.Moving();
+            doodle1.Drawing();
         }
     }
 }
 
-class [Something]
+class Doodle
+{
+
+    String name;
+    String color;
+
+    Void Moving
+    {
+        Console.WriteLine(name + "is moving")
+    }
+
+    Void Drawing
+    {
+        Console.WriteLine(name + "is drawing")
+    }
+
+}
